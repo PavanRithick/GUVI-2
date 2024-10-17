@@ -1,0 +1,12 @@
+The Window Object
+The window object is the global object in the browser context. It represents the browser window itself and serves as the top-level container for all other objects in the browser. This means that every global variable and function you create in JavaScript is actually a property or method of the window object. For instance, when you declare a variable like let name = "Alice";, it can be accessed as window.name.
+
+The window object also provides a variety of methods and properties to control the browser environment. You can manipulate the size of the browser window, control tabs, and access information about the browser’s history and navigation. Additionally, it handles events like resizing and scrolling, allowing developers to respond to user interactions effectively. The window object is also responsible for managing the execution of scripts and maintaining the overall browser context.
+
+The Document Object
+On the other hand, the document object represents the content of the web page loaded in the browser window. It provides a way to interact with the HTML structure of the page, allowing you to manipulate elements, styles, and content. The document object is part of the Document Object Model (DOM), which provides a structured representation of the document. Using the document object, you can select elements, modify their properties, and respond to user interactions like clicks and key presses.
+
+For example, with the document object, you can change the text of an HTML element, create new elements, or remove existing ones. It provides methods like getElementById(), querySelector(), and createElement() that are essential for dynamic web page updates.
+
+Key Differences
+In summary, while the window object serves as the global context for JavaScript execution and manages the browser itself, the document object is focused on the content and structure of the web page. Together, they form the backbone of client-side JavaScript, enabling developers to create interactive and dynamic web experiences. Understanding their roles and how they interact is crucial for effective web development.
